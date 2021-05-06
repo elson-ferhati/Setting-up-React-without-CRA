@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es6",
+    "paths": {
+      //Assuming your components/assets live in ./src
+      //Update this path as necessary
+      "@Components/*": ["./src/components/*"],
+      "@Assets/*": ["./src/assets/*"],
+      "@Pages/*": ["./src/pages/*"]
+    }
+  },
+  //Add any build/compiled folders here to stop vscode searching those
+  "exclude": ["node_modules"]
+}
