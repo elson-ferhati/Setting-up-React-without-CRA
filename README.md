@@ -25,8 +25,9 @@ yarn add -D @babel/core babel-loader @babel/preset-env @babel/preset-react
 ```sh
 yarn add react react-dom
 ```
-
+<br />
 ---
+<br />
 
 ##### Create a `template.html` file in the src folder
 ```html
@@ -42,8 +43,6 @@ yarn add react react-dom
 </html>
 ```
 
-<br />
-
 ##### Create a `index.js` in the src folder
 
 ```jsx
@@ -58,8 +57,6 @@ class App extends React.Component {
 
 ReactDOM.render(<App />, document.getElementById('root'));
 ```
-
-<br />
 
 ##### Create a `webpack.config.js` in the root of the project
 
@@ -110,16 +107,12 @@ module.exports = {
 };
 ```
 
-<br />
-
 ##### Create a `.babelrc` in the root of the project
 ```json
 {
   "presets": ["@babel/preset-env", "@babel/preset-react"]
 }
 ```
-
-<br />
 
 ##### Edit the `package.json` file adding the scripts:
 ```json
