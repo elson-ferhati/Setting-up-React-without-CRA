@@ -1,27 +1,27 @@
 # Setting up React without create-react-app
 
-##### Create a folder and cd into it
+#### Create a folder and cd into it
 ```sh
 mkdir my-app
 cd my-app
 ```
 
-##### Create a package.json file by runing
+#### Create a package.json file by runing
 ```sh
 yarn init
 ```
 
-##### Install webpack:
+#### Install webpack:
 ```sh
 yarn add -D webpack webpack-cli webpack-dev-server html-webpack-plugin
 ```
 
-##### Install babel:
+#### Install babel:
 ```sh
 yarn add -D @babel/core babel-loader @babel/preset-env @babel/preset-react
 ```
 
-##### Install react and react-dom
+#### Install react and react-dom
 ```sh
 yarn add react react-dom
 ```
@@ -32,7 +32,7 @@ yarn add react react-dom
 
 <br />
 
-##### Create a `template.html` file in the src folder
+#### Create a `template.html` file in the src folder
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -46,7 +46,7 @@ yarn add react react-dom
 </html>
 ```
 
-##### Create a `index.js` in the src folder
+#### Create a `index.js` in the src folder
 
 ```jsx
 import React from 'react';
@@ -61,7 +61,7 @@ class App extends React.Component {
 ReactDOM.render(<App />, document.getElementById('root'));
 ```
 
-##### Create a `webpack.config.js` in the root of the project
+#### Create a `webpack.config.js` in the root of the project
 
 ```js
 const path = require('path');
@@ -110,14 +110,14 @@ module.exports = {
 };
 ```
 
-##### Create a `.babelrc` in the root of the project
+#### Create a `.babelrc` in the root of the project
 ```json
 {
   "presets": ["@babel/preset-env", "@babel/preset-react"]
 }
 ```
 
-##### Edit the `package.json` file adding the scripts:
+#### Edit the `package.json` file adding the scripts:
 ```json
 {
   "scripts": {
@@ -128,7 +128,7 @@ module.exports = {
 ```
 
 
-### Run
+#### Run
 ```sh
 yarn dev:build
 ```
