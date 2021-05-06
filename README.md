@@ -25,8 +25,11 @@ yarn add -D @babel/core babel-loader @babel/preset-env @babel/preset-react
 ```sh
 yarn add react react-dom
 ```
+
 <br />
+
 ---
+
 <br />
 
 ##### Create a `template.html` file in the src folder
