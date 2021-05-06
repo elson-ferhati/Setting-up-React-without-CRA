@@ -1,8 +1,8 @@
 {
-  "name": "Setting-up-React-without-CRA",
+  "name": "configurations",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:elson-ferhati/Setting-up-React-without-CRA.git",
+  "repository": "git@github.com:elson-ferhati/configurations.git",
   "author": "Elson Ferhati",
   "license": "MIT",
   "devDependencies": {

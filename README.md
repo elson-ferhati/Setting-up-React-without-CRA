@@ -1,14 +1,12 @@
 # Setting up React without create-react-app
 
-### Create a folder and cd into it
+##### Create a folder and cd into it
 ```sh
 mkdir my-app
 cd my-app
 ```
 
-<br />
-
-### Create a package.json file by runing
+##### Create a package.json file by runing
 ```sh
 yarn init
 ```
@@ -17,8 +15,6 @@ yarn init
 ```sh
 yarn add -D webpack webpack-cli webpack-dev-server html-webpack-plugin
 ```
-
-<br />
 
 ### Install babel:
 ```sh
@@ -69,7 +65,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 <br />
 
-### Create a `webpack.config.js` in the root of the project
+#### Create a `webpack.config.js` in the root of the project
 
 ```js
 const path = require('path');
