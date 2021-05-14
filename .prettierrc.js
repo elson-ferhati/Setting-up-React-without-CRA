@@ -9,7 +9,7 @@ module.exports = {
         > "none" - No trailing commas.
         > "all" - Trailing commas wherever possible
   */
-  trailingComma: 'es5', // Print trailing commas wherever possible when multi-line. (A single-line array, for example, never gets trailing commas.)
+  trailingComma: "es5", // Print trailing commas wherever possible when multi-line. (A single-line array, for example, never gets trailing commas.)
   bracketSpacing: true, // Print spaces between brackets in object literals. Default true Example: { foo: bar } | false - Example: {foo: bar}
-  endOfLine: 'lf', // "<lf|crlf|cr|auto>". Default lf
+  endOfLine: "lf", // "<lf|crlf|cr|auto>". Default lf
 };

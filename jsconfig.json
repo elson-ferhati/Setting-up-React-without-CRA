@@ -3,8 +3,8 @@
     "baseUrl": ".",
     "target": "es6",
     "paths": {
-      //Assuming your components/assets live in ./src
-      //Update this path as necessary
+      // Assuming your components/assets live in ./src
+      // Update this path as necessary
       "@Components/*": ["./src/components/*"],
       "@Assets/*": ["./src/assets/*"],
       "@Pages/*": ["./src/pages/*"]

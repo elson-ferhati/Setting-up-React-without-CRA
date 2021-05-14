@@ -1,20 +1,17 @@
 module.exports = {
   env: {
     es6: true,
-    node: false,
     browser: true,
   },
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
     'airbnb-base',
-    // If you use eslint-plugin-prettier, all you need is plugin:prettier/recommended:
     'plugin:prettier/recommended',
   ],
   plugins: ['react', 'prettier'],
   parserOptions: {
-    ecmaVersion: 12,
-    sourceType: 'module',
+    ecmaVersion: 6,
   },
   rules: {
     'no-eval': 1,
