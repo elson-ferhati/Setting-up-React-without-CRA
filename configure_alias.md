@@ -14,6 +14,11 @@
 }
 ```
 
+#### Install `eslint-import-resolver-alias`
+```sh
+yarn add -D eslint-import-resolver-alias
+```
+
 #### Edit the `.eslintrc.js` file adding the alias section:
 ```js
 {
